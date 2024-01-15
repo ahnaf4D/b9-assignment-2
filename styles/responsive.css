@@ -1,0 +1,62 @@
+/* Responsive For Mobile */
+@media screen and (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .banner {
+        padding: 32px;
+        width: 90%;
+        /* height: auto; */
+    }
+
+    .banner-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 1.375rem;
+        font-weight: 800;
+    }
+
+    .banner-description {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        line-height: 1.313rem;
+        width: 304px;
+        padding: 0;
+    }
+
+    .search-form {
+        flex-direction: column;
+        align-content: center;
+        /* justify-content: center; */
+        /* text-align: center; */
+        /* margin: 0px auto; */
+        margin: 32px 32px;
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 287px;
+        max-height: 288px;
+    }
+
+    .search-form>input,
+    select {
+        max-width: 255px;
+        height: 52px;
+    }
+
+    #findBtn {
+        width: 90%;
+        /* padding: 0; */
+    }
+}
+
+/* Responsive for Desktop */
+@media screen and (min-width:992px) {
+    .banner {
+        max-width: 968px;
+    }
+}

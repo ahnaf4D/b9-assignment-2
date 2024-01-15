@@ -1,4 +1,81 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-font: 'Mulish', sans-serif;
     --secondary-font: 'Inter', sans-serif;
+}
+::placeholder{
+    padding: 16px;
+    font-family: var(--primary-font);
+    color: rgba(19, 19, 24, 0.50);
+}
+select{
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: var(--primary-font);
+}
+/* Banner Styles Here */
+.banner {
+    font-family: var(--primary-font);
+    max-width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 0px auto;
+    padding-top: 106px;
+    padding-bottom: 122px;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    /* padding: 106px; */
+}
+
+.banner-description {
+    padding: 24px 0px 64px;
+    max-width: 676px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px auto;
+}
+
+.search-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+    padding: 16px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search-form>input,
+select {
+    margin-right: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+}
+
+#findBtn {
+    padding: 16px;
+    width: 22%;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 700;
 }
