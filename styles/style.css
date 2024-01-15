@@ -9,16 +9,31 @@
     --primary-font: 'Mulish', sans-serif;
     --secondary-font: 'Inter', sans-serif;
 }
-::placeholder{
+
+::placeholder {
     padding: 16px;
     font-family: var(--primary-font);
     color: rgba(19, 19, 24, 0.50);
 }
-select{
+
+select {
     padding: 16px;
     color: rgba(19, 19, 24, 0.50);
     font-family: var(--primary-font);
 }
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 14px 35px;
+    color: #FFF;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
 /* Banner Styles Here */
 .banner {
     font-family: var(--primary-font);
@@ -78,4 +93,49 @@ select {
     cursor: pointer;
     color: #FFF;
     font-weight: 700;
+}
+
+/* tours section here */
+#tours {
+    font-family: var(--primary-font);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tour-title {
+    color: #131318;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.tour-description {
+    max-width: 577px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    /* 162.5% */
+}
+
+.tour_term {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 16px;
+    max-width: 525px;
+    list-style-type: disc;
+}
+.tour_termFinal{
+    margin-bottom: 24px;
+}
+.tour-foot-description {
+    color: #5A5A5D;
+    line-height: 26px;
+    max-width: 530px;
+    margin-bottom: 45px;
 }
