@@ -162,11 +162,14 @@ select {
     text-align: center;
     line-height: 26px;
     margin: 0 auto;
-    margin-bottom:24px ;
+    margin-bottom: 24px;
 }
-.destination-place-gallary{
-    display: grid;
-    grid-template-columns: auto auto;
+
+.destination-place-album1,
+.destination-place-album2,
+.destination-place-album3 {
+    display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 24px;
 }
