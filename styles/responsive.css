@@ -111,7 +111,28 @@
         width: 335px;
         height: 176px;
      }
-}
+     /* Service styles here */
+     .why-chose-us{
+        text-align: center;
+    }
+     .service-container-1,.extra-service{
+        flex-direction: column;
+     }
+     .service,.uniq_service,.service-another{
+        max-width: 335px;
+     }
+     body > main > section.why-chose-us > div.extra-service > div{
+        max-width: 335px;
+     }
+     .extra-service,.uniq_service{
+        margin-top: 16px;
+     }
+     .extra-service{
+        justify-content: center;
+     }
+/* Service styles here */
+
+    }
 @media screen and (min-width:992px) {
     .banner {
         max-width: 968px;
