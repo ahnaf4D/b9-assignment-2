@@ -130,12 +130,43 @@ select {
     max-width: 525px;
     list-style-type: disc;
 }
-.tour_termFinal{
+
+.tour_termFinal {
     margin-bottom: 24px;
 }
+
 .tour-foot-description {
     color: #5A5A5D;
     line-height: 26px;
     max-width: 530px;
     margin-bottom: 45px;
+}
+
+/* Destination  Section Styles here */
+.destination {
+    font-family: var(--primary-font);
+    margin-top: 100px;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-description {
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom:24px ;
+}
+.destination-place-gallary{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 24px;
 }
