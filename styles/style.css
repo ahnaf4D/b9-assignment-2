@@ -385,6 +385,7 @@ footer {
     font-size: 2rem;
     font-weight: 800;
 }
+
 .footer-description {
     color: #5A5A5D;
     text-align: center;
@@ -392,12 +393,14 @@ footer {
     max-width: 769px;
     margin: 0 auto;
 }
+
 .social-icons {
     margin-top: 32px;
     text-align: center;
     font-size: 25px;
-   cursor: pointer;
+    cursor: pointer;
 }
+
 .footerLine {
     margin-bottom: 250px;
     width: 872px;
@@ -413,6 +416,26 @@ footer {
     font-weight: 300;
     display: block;
     text-align: center;
-    margin-top:50px;
+    margin-top: 50px;
     padding-bottom: 110px;
+}
+
+/* Centered text over the image */
+.destination-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
