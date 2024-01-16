@@ -94,6 +94,7 @@
         line-height: 24px;
         max-width: 300px;
     }
+
     .tour-foot-description {
         color: #5A5A5D;
         font-size: 0.875rem;
@@ -101,40 +102,105 @@
         margin-bottom: 25px;
         max-width: 335px;
     }
+
     .destination-place-album1,
     .destination-place-album2,
     .destination-place-album3 {
         flex-direction: column;
         align-items: center;
     }
-    .image{
+
+    .image {
         width: 335px;
         height: 176px;
-     }
-     /* Service styles here */
-     .why-chose-us{
+    }
+
+    /* Service styles here */
+    .why-chose-us {
         text-align: center;
     }
-     .service-container-1,.extra-service{
+
+    .service-container-1,
+    .extra-service {
         flex-direction: column;
-     }
-     .service,.uniq_service,.service-another{
+    }
+
+    .service,
+    .uniq_service,
+    .service-another {
         max-width: 335px;
-     }
-     body > main > section.why-chose-us > div.extra-service > div{
+    }
+
+    body>main>section.why-chose-us>div.extra-service>div {
         max-width: 335px;
-     }
-     .extra-service,.uniq_service{
+    }
+
+    .extra-service,
+    .uniq_service {
         margin-top: 16px;
-     }
-     .extra-service{
+    }
+
+    .extra-service {
         justify-content: center;
-     }
-/* Service styles here */
+    }
+
+    #newsLetterSection {
+        flex-direction: column;
+        gap: 16px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .newsImage {
+        width: 350px;
+        height: 300px;
+    }
+
+    .offering-tag {
+        left: 126px;
+        width: 214.023px;
+        height: 79.268px;
+    }
+    footer{
+        max-height: 400px;
+    }
+    .sitename {
+        color: #FFF;
+        text-align: center;
+        font-size: 0.991rem;
+    }
+    #newsLetterSection>div>div>h3{
+        font-size: 21.138px;
 
     }
+    .newsLetterForm{
+        max-width: 335px;
+    }
+
+    /* Footer styles here */
+    .logo-area{
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    .social-icons{
+        margin-top: 16px;
+        
+    }
+    .footerLine{
+        height: 1px;
+        width: 335px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .copyright-text{
+        margin-top: 24px;
+        /* margin-bottom: 31px; */
+    }
+}
+
 @media screen and (min-width:992px) {
     .banner {
         max-width: 968px;
     }
+ 
 }
