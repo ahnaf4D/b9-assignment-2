@@ -395,6 +395,8 @@ footer {
 .social-icons {
     margin-top: 32px;
     text-align: center;
+    font-size: 25px;
+   cursor: pointer;
 }
 .footerLine {
     margin-bottom: 250px;
