@@ -159,47 +159,56 @@
         width: 214.023px;
         height: 79.268px;
     }
-    footer{
+
+    footer {
         max-height: 400px;
     }
+
     .sitename {
         color: #FFF;
         text-align: center;
         font-size: 0.991rem;
     }
-    #newsLetterSection>div>div>h3{
+
+    #newsLetterSection>div>div>h3 {
         font-size: 21.138px;
 
     }
-    .newsLetterForm{
+
+    .newsLetterForm {
         max-width: 335px;
     }
 
     /* Footer styles here */
-    .logo-area{
+    .logo-area {
         padding-top: 32px;
         padding-bottom: 16px;
     }
-    .social-icons{
+
+    .social-icons {
         margin-top: 16px;
-        
+
     }
-    .footerLine{
+
+    .footerLine {
         height: 1px;
         width: 335px;
         margin-top: 24px;
         margin-bottom: 24px;
     }
-    .copyright-text{
+
+    .copyright-text {
         margin-top: 24px;
         /* margin-bottom: 31px; */
     }
+
     /* Add Text over the image */
-    .centered{
+    .centered {
         font-size: 1.25rem;
         font-weight: 700;
     }
-    .tourGuideContainer{
+
+    .tourGuideContainer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -211,5 +220,29 @@
     .banner {
         max-width: 968px;
     }
- 
+
+}
+
+/* Media Query for Hamburgur Menu */
+@media screen and (max-width: 650px) {
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    label {
+        display: inline-flex;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 }

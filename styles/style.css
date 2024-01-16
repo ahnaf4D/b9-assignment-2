@@ -34,6 +34,50 @@ select {
     cursor: pointer;
 }
 
+/* Nav  Styles Here */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    padding: 15px;
+}
+
+.uniq_navItem {
+    color: #FF5400;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+
+#toggler,
+label {
+    display: none;
+}
+
+label i {
+    color: #131318;
+    cursor: pointer;
+}
+
 /* Banner Styles Here */
 .banner {
     font-family: var(--primary-font);
@@ -459,8 +503,8 @@ footer {
         19.3px 17.7px 14.2px rgba(0, 0, 0, 0.039),
         39.8px 36.5px 29.2px rgba(0, 0, 0, 0.048),
         109px 100px 80px rgba(0, 0, 0, 0.07);
-        max-width: 500px;
-        border: 5px solid red;
-        border-radius: 16px;
-        
+    max-width: 500px;
+    border: 5px solid red;
+    border-radius: 16px;
+
 }
